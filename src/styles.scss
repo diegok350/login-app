@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*Import Font*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+/* Import color */
+@import 'assets/color/colors.scss';
+
+/* Import Bootstrap */
+@import "node_modules/bootstrap/scss/bootstrap";
+
+/* Import theme */
+@import 'assets/theme/codemono.scss';

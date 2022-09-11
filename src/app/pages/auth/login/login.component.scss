@@ -1,0 +1,64 @@
+.bg-img {
+    background-color: #dcdaff;
+    border-radius: 2rem;
+}
+
+.login-container {
+    padding: 4rem 8rem;
+    background-color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.illustration {
+    width: 100%;
+    height: 30rem;
+}
+
+.animation {
+    animation: vibrate 6s ease 0s infinite normal forwards;
+}
+
+// Animation
+@keyframes vibrate {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(2px, -2px);
+	}
+
+	40% {
+		transform: translate(2px, 2px);
+	}
+
+	60% {
+		transform: translate(-2px, 2px);
+	}
+
+	80% {
+		transform: translate(-2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+// Media query
+@media (max-width: 768px) {
+    .bg-img {
+        border-radius: 0rem;
+    }
+
+    .login-container {
+        padding: 1rem 4rem;
+        border-radius: 0rem;
+    }
+
+    .illustration {
+        width: 100%;
+        height: 17rem;
+    }
+}
